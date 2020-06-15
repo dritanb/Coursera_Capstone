@@ -1,12 +1,12 @@
-Capstone Project - Bying a home in Toronto
+Capstone Project - Buying a home in Toronto
 ==========================================
 
 Introduction/Business Problem
 -----------------------------
-With home prices rising in Toronto, it is becoming very difficult to take such a big step as to buying a home in Toronto. Someone that is looking to take this big step has to look into many factors: price, safety, amenties, schools... just to name very few. Navigating through this myriad of factors is a daunting task. The proposed solution helps prospective home buyers in Toronto by providing information about prices, amenties and school ratings.
+With home prices rising in Toronto, it is becoming very difficult to take such a big step as to buying a home in Toronto. Someone that is looking to take this big step has to look into many factors: price, safety, amenities , schools... just to name very few. Navigating through this myriad of factors is a daunting task. The proposed solution helps prospective home buyers in Toronto by providing information about prices, amenities and school ratings.
 
 Description of the data
 -----------------------
 For the Toronto neighborhood data, we'll be using the Wikipedia page that has all the information we need to explore and cluster the neighborhoods in Toronto. The page will be scraped, wrangled, cleaned, and then read it into a pandas dataframe so that it is in a structured. 
-We'll use Foursquare to find 10 top amenties per postal code and will attach this data to the dataframe containg neighborhood data. 
-For the Toronto neighborhood data, we'll attemp to scrape it from existing real estate websites. If that is not possible (not readily available), we'll compile a csv file containg this data and after uploading it, we will load this file into pandas dataframe to join it with neighborhood data in order to use it for our analysis. 
+We'll use Foursquare to find 10 top amenities per postal code and will attach this data to the dataframe containing neighborhood data. 
+For the Toronto neighborhood data, we'll attempt to scrape it from existing real estate websites. If that is not possible (not readily available), we'll compile a csv file containing this data and after uploading it, we will load this file into pandas dataframe to join it with neighborhood data in order to use it for our analysis. 
